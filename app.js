@@ -88,7 +88,7 @@ app.get("/map", async (req, res) => {
       <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
       <style>
         body {
-          background-color: #f8f9fa;
+          background-color: grey;
           color: #343a40;
         }
         nav {
@@ -114,7 +114,7 @@ app.get("/map", async (req, res) => {
       </style>
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
           <a class="navbar-brand tt" href="/">City Explorer</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
